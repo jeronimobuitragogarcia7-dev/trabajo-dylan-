@@ -94,3 +94,26 @@ header .actual a {
     color: white;
     font-weight: bold;
 }
+/* SERVICIOS */
+
+.servicio {
+    background: #e6e6e6;
+    border: #cccccc 1px solid;
+    padding: 20px;
+    margin-bottom: 5px;
+    min-height: 180px;
+}
+.servicio2 {
+    background: #35424a;
+    border: #cccccc 1px solid;
+    padding: 20px;
+    margin-bottom: 5px;
+    min-height: 180px;
+}
+.servicio2 p {
+    color: white;
+}
+
+.servicio h3 {
+    margin-bottom: 15px;
+}
