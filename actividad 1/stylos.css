@@ -14,7 +14,7 @@ body {
     background-color: #ffffff;
 }
 .contenedor {
-    width: 80%;
+    width: 70%;
     margin: auto;
     overflow: hidden;
 }
@@ -31,7 +31,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
-    float: right;
+    float: left;
     padding: 0 20px;
     
     
@@ -98,7 +98,7 @@ header .actual a {
 #principal h3 {
     margin-top: 30px;
 }
-/* SERVICIOS */
+/* nosotros */
 
 .nosotros {
     padding: 20px;
