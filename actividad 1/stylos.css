@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* lo de atras and letras */
+/* fondo and letras */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -18,7 +18,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
-/* CABEZOONNNNNNN */
+/* header pt1*/
 header {
     background: #24282b;
     color: white;
@@ -62,7 +62,7 @@ header .actual a {
     color: #1293d4;
     font-weight: bold;
 }
-/* la parte de abajo */
+/* la parte de abajo del header pt2 */
 #boletin {
     padding: 20px;
     color: white;
@@ -94,11 +94,13 @@ header .actual a {
     color: white;
     font-weight: bold;
 }
+/* pedazo pequeñito "de nosotros" */
+#principal h3 {
+    margin-top: 30px;
+}
 /* SERVICIOS */
 
 .servicio {
-    background: #e6e6e6;
-    border: #cccccc 1px solid;
     padding: 20px;
     margin-bottom: 5px;
     min-height: 180px;
