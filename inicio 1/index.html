@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
     <title>Diseño Multimedia - INICIO</title>
 </head>
+
 <body>
 
-    <!-- header -->
+    <!-- HEADER -->
     <header>
         <div class="contenedor">
 
@@ -18,7 +20,7 @@
 
             <nav>
                 <ul>
-                    <a href="index.html">INICIO</a>
+                    <a class="actual" href="index.html">INICIO</a>
                     <a href="nosotros.html">NOSOTROS</a>
                     <a href="servicio.html">SERVICIOS</a>
                     <a href="contacto.html">CONTACTO</a>
@@ -27,55 +29,122 @@
 
         </div>
     </header>
-    <img  class="cabecera" src="cabecera.jpg" alt="Imagen de inicio">
-    <!-- entrada registro-->
+
+
+    <!-- BANNER -->
+    <section class="banner">
+
+        <img class="cabecera" src="cabecera.jpg" alt="Imagen de inicio">
+
+        <div class="texto-banner">
+
+            <h1>Expertos en Tecnologías Web</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minima beatae aspernatur alias, commodi molestiae
+                accusantium.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- BOLETÍN -->
     <section id="boletin">
+
         <div class="contenedor">
 
             <h2>Subscríbete a nuestro boletín</h2>
 
             <form>
-                <input type="email" placeholder="Ingrese el Email...">
-                <button type="submit">Suscribirse</button>
+
+                <input
+                    type="email"
+                    placeholder="Ingrese el Email..."
+                >
+
+                <button type="submit">
+                    Suscríbete
+                </button>
+
             </form>
 
         </div>
+
     </section>
-        <!-- CONTENIDO -->
+
+
+    <!-- CONTENIDO -->
     <section id="contenido">
+
         <div class="contenedor">
 
             <main id="principal">
-                <div class="inisio">
-                    <img src="logo_html.png" alt="Logo HTML">
+
+                <!-- HTML5 -->
+                <div class="inicio">
+
+                    <img src="logo_html.png" alt="Logo HTML5">
+
+                    <h3>HTML5</h3>
+
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Vivamus mi augue, viverra sit amet ultricies at, vulputate
-                        id lorem. Nulla facilisi.
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Vivamus mi augue, viverra sit
+                        amet ultricies.
                     </p>
+
                 </div>
 
-                <div class="inisio">
-                    <img src="logo_css.png" alt="Logo CSS">
+
+                <!-- CSS3 -->
+                <div class="inicio">
+
+                    <img src="logo_css.png" alt="Logo CSS3">
+
+                    <h3>CSS3</h3>
+
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Vivamus mi augue, viverra sit amet ultricies at, vulputate
-                        id lorem. Nulla facilisi.
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Vivamus mi augue, viverra sit
+                        amet ultricies.
                     </p>
+
                 </div>
 
-                <div class="inisio">
-                    <img src="logo_brush.png" alt="Logo brush">
+
+                <!-- DISEÑO GRÁFICO -->
+                <div class="inicio">
+
+                    <img src="logo_brush.png" alt="Logo Diseño Gráfico">
+
+                    <h3>Diseño Gráfico</h3>
+
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Vivamus mi augue, viverra sit amet ultricies at, vulputate
-                        id lorem. Nulla facilisi.
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Vivamus mi augue, viverra sit
+                        amet ultricies.
                     </p>
-                    
+
                 </div>
 
             </main>
+
         </div>
+
     </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Graphel Desarrollo Web, Copyright © 2017
+        </p>
+
+    </footer>
+
 </body>
 </html>
